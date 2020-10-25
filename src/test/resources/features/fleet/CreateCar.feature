@@ -10,3 +10,4 @@ Feature: As a user, I want to be able to create a new car
       #Parameter | value => cucumber data table
       | Licence Plate | SDET |
       | Model Year | 2021 |
+    And user clicks on save and close button
