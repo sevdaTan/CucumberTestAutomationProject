@@ -25,4 +25,14 @@ public class BrowserUtils {
         wait.until(ExpectedConditions.elementToBeClickable(element));
         ((JavascriptExecutor) (Driver.getDriver())).executeScript("arguments[0].click()", element);
     }
+
+    public static void enterText (WebElement element, String text){
+        wait.until(ExpectedConditions.visibilityOf(element));
+        element.clear();
+        element.sendKeys(text);
+        System.out.println("Entering text: "+ text);
+
+    }
+
+
 }
