@@ -12,7 +12,9 @@ import org.junit.runner.RunWith;
         dryRun = false,
 //       tags = "@parametrized_test"
      //   tags = "@negative_login or @parametrized_test", // we can run more than one scenarios at the same time
-        tags = "@login",
+       // tags = "@login",
+        tags = "@add_car",
+        plugin = "json:target/cucumber.json",
         publish = true
 )
 

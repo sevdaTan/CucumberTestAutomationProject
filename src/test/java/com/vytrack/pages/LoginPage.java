@@ -18,6 +18,11 @@ public class LoginPage extends BasePage {
     private WebElement warningMessage;
 
     public String getWarningMessageText(){
+        try {
+            Thread.sleep(5000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return  warningMessage.getText().trim();
 
 
