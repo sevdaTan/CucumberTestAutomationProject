@@ -7,6 +7,6 @@ Feature: As a user, I want to be able to create a new car
     And user navigates to "Fleet" and "Vehicles"
     And user clicks on create car button
     When user adds new vehicle information
-      #Parameter | value
+      #Parameter | value => cucumber data table
       | Licence Plate | SDET |
       | Model Year | 2021 |
