@@ -1,6 +1,6 @@
-@add_car
-Feature: As a user, I want to be able to create a new car
 
+Feature: As a user, I want to be able to create a new car
+  @add_car
   Scenario: 1. Add some car
     Given user is on login page
     And user logs in as a "store manager"
